@@ -634,7 +634,7 @@ html{
         font-size: .9rem;
         text-transform: uppercase;
         font-weight: 600;
-        padding-right: 17rem;
+        padding-right: 15.78rem;
     
     }
     .home-top-content h4,
@@ -699,7 +699,7 @@ hr{
    
 }
 .service-img img{
-    max-width: 90%;
+    max-width: 80%;
    
     
 
@@ -784,15 +784,17 @@ align-items: flex-start;
     
 
 }
-.skill-img{
-    width: 350px;
-    height: auto;
-    padding-left: 1rem;
+.skill-img img{
+   max-width: 70%;
+   padding-left: 1rem;
+   height: auto;
+   
 }
 
 .skill-content h2{
     font-size: 1.3rem;
 }
+
 .education-content{
     display: grid;
     grid-template-columns: auto;
@@ -823,7 +825,8 @@ align-items: flex-start;
 .education-heading{
     position: relative;
     margin-bottom:4rem;
-    font-size:1.4rem
+    font-size:1.4rem;
+    padding-top: 4rem;
 }
  
 .contact-container{
