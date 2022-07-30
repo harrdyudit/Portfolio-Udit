@@ -209,10 +209,13 @@ li a {
 
 }
 
-li a:hover {
-    color: var(--second-text-color);
-    transition: all 0.5s linear;
+li a:hover,li a:active {
+    color:#cc3300
+    ;
+
+    transition: all 0.2s linear;
 }
+
 
 ul li {
     padding: 0rem 2.2rem;
@@ -1190,7 +1193,7 @@ margin-bottom: 8%;
       }
 
 
-@media (min-width:556px) and (max-width:768px){
+@media (min-width:556px) and (max-width:765px){
 
 
   
@@ -1428,7 +1431,7 @@ margin-left: 28%;
 }
  
 }
-@media (min-width:768px) and (max-width:998px) {
+@media (min-width:766px) and (max-width:998px) {
 
     .heading{
         font-size: 1rem;
@@ -1703,6 +1706,59 @@ margin-top: 8%;
 
 }
 }
+@media (min-width:998px) and (max-width:1200px) {
+    .btns
+{
+    
+   
+    
+    padding-left: 18%;
+    
+  
+    padding-bottom: 3rem;
+   
+    
+    
+    
+}
+
+hr{
+    
+    width: 7%;
+    
+    left: 5rem;
+   
+}
+.skill-img img{
+    max-width: 100%;
+    margin-left: 16%;
+    height: auto;
+    padding-top: 11%;
+    
+ }
+ #form{
+    
+    min-width: 88%;
+    padding: 1rem 2rem;
+    
+    
+    
+    
+}
+.contact-container h1{
+    padding-left: 17%;
+    font-size: 1.5rem;
+    max-width: 95%;
+    margin-top: 2rem;
+
+}
+
+
+}
+
+
+
+
 
     
 
