@@ -677,21 +677,23 @@ h4 {
   #form {
     min-width: 99%;
     padding: 1rem 2rem;
-    margin-top: 11rem;
+    margin-top: 10rem;
   }
   .contact-container h1 {
-    padding-left: 1.2rem;
+    padding-left: .7rem;
     font-size: 1.3rem;
-    max-width: 95%;
+    max-width: 90%;
     margin-top: 2rem;
   }
   .contact-img {
     width: 350px;
     height: 150px;
     padding-left: 2.5rem;
+    
   }
   .contact-img img {
     width: 100%;
+    
   }
   .footer-container {
     display: grid;
