@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
    
     
@@ -20,11 +21,11 @@
 
 <body>
     
-    <header class="head" id="header">
+    <header class="head" id="header" >
         <div class="heading">
             <h2>Udit</h2>
         </div>
-        <nav>
+        <nav class="navbar">
             <ul>
                 <li><a href="#header">Home</a></li>
                 <li><a href="#service">Service</a></li>
@@ -42,7 +43,7 @@
     </header>
 
     <!-- home section -->
-    <section class="home" id="container">
+    <section class="home" id="container"  >
         <div class="home-top-content">
             <span class="second-heading">Hiii,</span>
             <span class="second-heading web">I'm Udit</span>
@@ -107,7 +108,7 @@
     <div class="skill-btn btns">
         <button><hr>Skill</button>
     </div>
-    <div class="skill-container" id="skill">
+    <div class="skill-container" id="skill" data-aos="zoom-in">
         <div class="skill-content">
             <h2>As a designer I am constantly improving my skills |</h2>
             <p>
@@ -136,11 +137,11 @@
     <!-- skill section end -->
 
     <!-- education section start -->
-    <div class="education-container" id="Education">
+    <div class="education-container" id="Education"   >
         <h1 class="education-heading">My education</h1>
         
         </div>
-        <div class="education-content">
+        <div class="education-content" >
             <div class="bca">
 
                 <h2>BCA</h2>
@@ -169,7 +170,7 @@
     <!-- education-section-end -->
 
     <!-- contact section start -->
-<div class="contact-container" id="Contact">
+<div class="contact-container" id="Contact" >
     <h1> Let's talk together and calculate your project estimate |</h1> 
     <div class="contact-first-btn">
         <button></button>
@@ -205,7 +206,7 @@
     <!-- contact section end -->
 
     <!-- footer section start -->
-    <div class="footer-container" id="Footer">
+    <div class="footer-container" id="Footer" data-aos="zoom-in" >
         
             <div class="footer-img">
                 <img src="img/footer.png" alt="">
@@ -222,6 +223,17 @@
             <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
             <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
             <script src="script.js"></script>
+            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+            <script>
+              AOS.init(
+                {
+                    offset: 120, // offset (in px) from the original trigger point
+  
+  once: true, // whether animation should happen only once - while scrolling down
+  
+                }
+              );
+            </script>
 </body>
 
 </html>

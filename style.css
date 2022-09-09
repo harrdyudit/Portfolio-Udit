@@ -14,6 +14,7 @@ html {
 }
 body{
     overflow-x: hidden;
+    margin: 0;
    
 }
 
@@ -29,6 +30,7 @@ body{
     --bc-color: #78ADD9;
     --bar-color: #e9ecef;
     --btn-backg: #DF5646;
+    --nav-color: #3498db;
     
 
 }
@@ -38,10 +40,14 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: .8rem;
+    /* margin-top: .rem; */
     max-width: 100%;
     font-family: sans-serif;
     position: relative;
+    background-color: #3498db;
+    height: 3.1rem;
+    
+    /* border-radius: 10px; */
    
 
 
@@ -195,17 +201,20 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-
-
-
-
-
+    
+    
+    
+    
+    
 }
 
 
 li a {
+    
     text-decoration: none;
+    color: #2c3e50;
     letter-spacing: .1rem;
+    font-weight: 700;
 
 }
 
@@ -242,7 +251,7 @@ ul li {
 .service-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin-bottom: 15rem;
+    margin-bottom: 10rem;
     
     
    
@@ -261,6 +270,7 @@ ul li {
     align-items: flex-start;
     flex-direction: column;
     text-align: left;
+    
     
    
    
@@ -350,6 +360,7 @@ display: flex;
     grid-template-columns: .7fr .5fr; 
    
     padding-left: 2rem;
+    margin-top: 5%;
   
     
     
@@ -360,6 +371,7 @@ display: flex;
     font-family: 'Poppins', sans-serif;
     text-align: justify;
     padding-right: 2rem;
+    padding-left: 5%;
     
 
 }
@@ -430,7 +442,7 @@ display: flex;
     display: grid;
     grid-template-columns: .6fr .7fr .7fr;
     
-    /* padding: 3rem; */
+    padding: 3rem;
     text-align: center;
     position: relative;
    
@@ -480,7 +492,7 @@ display: flex;
 /* contact section start */
 
 .contact-img{
-    width: 500px;
+    width: 400px;
   height: auto;
 }
 .contact-img img{
@@ -493,18 +505,21 @@ display: flex;
     grid-template-columns:1fr 1fr;
     margin-top: 10rem;
     text-align: justify;
+    margin-left: 5%;
 
     
    
 }
 .contact-container h1{
     padding-left: 2rem;
+    font-size: 1.3rem;
 
 }
 #form{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 70%;
+    
     padding: 1rem 2rem;
     
 }
@@ -541,6 +556,7 @@ input,textarea:focus{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     height: 400px;
+    margin-left: 3%;
 }
 .footer-content{
     display: flex;
@@ -1755,6 +1771,13 @@ hr{
 
 
 }
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+ 
 
 
 
