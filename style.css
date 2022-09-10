@@ -560,6 +560,11 @@ h4 {
   }
   .home-img {
     height: 370px;
+    max-width: 79%;
+    margin-left: 1rem;
+  }
+  .home-img img{
+    width: 100%;
   }
   .home-top-content {
     /* background-color: red; */
@@ -573,12 +578,13 @@ h4 {
   }
 
   hr {
-    width: 8%;
+    width: 4%;
 
-    left: 1.8rem;
+    left: 2rem;
   }
   .service-img img {
-    max-width: 80%;
+    max-width: 75%;
+    margin-top: 2rem;
   }
 
   .service-container {
