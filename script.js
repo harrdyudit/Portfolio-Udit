@@ -1,7 +1,7 @@
 const mobailBtn = document.querySelector(".mobail-navbar-btn");
 const header = document.getElementById("header");
 
-// const sticky=header.offsetTop;
+
 
 const toggleMenu = () => {
   header.classList.toggle("active");

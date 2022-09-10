@@ -575,7 +575,7 @@ h4 {
   hr {
     width: 8%;
 
-    left: 1rem;
+    left: 1.8rem;
   }
   .service-img img {
     max-width: 80%;
@@ -620,7 +620,7 @@ h4 {
     display: grid;
     grid-template-columns: auto;
 
-    padding-left: 1rem;
+    padding-left: .3rem;
     text-align: justify;
   }
 
@@ -679,10 +679,11 @@ h4 {
     padding: 1rem 2rem;
     margin-top: 10rem;
     margin-right: 1rem;
+
   }
   .contact-container h1 {
-    padding-left: .7rem;
-    font-size: 1.3rem;
+    padding-left: .1rem;
+    font-size: 1.1rem;
     max-width: 90%;
     margin-top: 0rem;
   }
@@ -1050,13 +1051,13 @@ h4 {
   }
 
   #form {
-    min-width: 75%;
+    min-width: 80%;
     padding: 1rem 2rem;
     margin-top: 11rem;
     margin-left: 12%;
   }
   .contact-container h1 {
-    padding-left: 15%;
+    padding-left: 10%;
     font-size: 1.3rem;
     max-width: 95%;
     margin-top: 2rem;
@@ -1064,10 +1065,12 @@ h4 {
   .contact-img {
     width: 350px;
     height: 150px;
-    margin-left: 28%;
+    margin-left: 24%;
+    margin-top: 4rem;
   }
   .contact-img img {
     width: 100%;
+    max-width: 80%;
   }
   .footer-container {
     display: grid;
