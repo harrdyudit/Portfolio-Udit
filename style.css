@@ -592,7 +592,7 @@ h4 {
   z-index: 55;
 }
 .sc{
-  font-size: 3rem;
+  font-size: 4rem;
   width: 4rem;
   height: 4rem;
 }
@@ -602,6 +602,7 @@ h4 {
   html {
     overflow-x: hidden;
   }
+  
 }
 /* media query for mobail */
 @media (max-width: 450px) {
@@ -819,6 +820,12 @@ font-size: 1.9rem;
     margin-right: .6rem;
     padding: 0.8rem 0rem;
   }
+  
+  .sc{
+    font-size: 2rem;
+    width: 2rem;
+    height: 2rem;
+  }
 }
 /* media min-width 450px to 555px */
 
@@ -995,6 +1002,11 @@ font-size: 1.9rem;
   h4 {
     padding: 0.8rem 0rem;
   }
+  .sc{
+    font-size: 2rem;
+    width: 2rem;
+    height: 2rem;
+  }
 }
 @media (min-width: 588px) and (max-width: 690px) {
   .heading {
@@ -1003,6 +1015,11 @@ font-size: 1.9rem;
     font-weight: 600;
     padding-right: 50%;
     text-align: center;
+  }
+  .sc{
+    font-size: 2.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
   }
 }
 @media (min-width: 690px) and (max-width: 768px) {
@@ -1418,9 +1435,4 @@ font-size: 1.9rem;
     margin-top: 2rem;
   }
 }
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1;
-}
+
