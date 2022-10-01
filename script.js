@@ -6,9 +6,6 @@ const toggleMenu = () => {
 };
 mobailBtn.addEventListener("click", () => toggleMenu());
 
-
-
-
 // sticky menu-bar
 window.addEventListener("scroll", function () {
   if (window.pageYOffset >= 50) {
@@ -19,6 +16,6 @@ window.addEventListener("scroll", function () {
 });
 
 // scroll to top button
-function goTo(){
-  window.scrollTo(0,0)
+function goTo() {
+  window.scrollTo(0, 0);
 }
